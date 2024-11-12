@@ -5,7 +5,6 @@ numbers[index_none_number] = 0
 
 count_of_numbers = len(numbers)
 sum_of_numbers = sum(numbers)
-average_of_numbers = round(sum_of_numbers / count_of_numbers, 2)
 
-numbers[index_none_number] = average_of_numbers
+numbers[index_none_number] = sum_of_numbers / count_of_numbers
 print("Измененный список:", numbers)

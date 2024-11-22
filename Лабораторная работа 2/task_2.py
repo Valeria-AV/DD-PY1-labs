@@ -7,4 +7,5 @@ money_capital = 0  # Подушка безопасности
 for _ in range(1, months + 1):
     money_capital += spend - salary
     spend += spend * increase
+    
 print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", round(money_capital))

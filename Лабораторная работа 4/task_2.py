@@ -16,6 +16,7 @@ def task() -> None:
     with open(OUTPUT_FILENAME, 'w', encoding='utf-8') as j:
         j.write(json.dumps(jsonArray, indent=4))
 
+
 if __name__ == '__main__':
     # Нужно для проверки
     task()
